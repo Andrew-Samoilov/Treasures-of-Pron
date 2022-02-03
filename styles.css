@@ -1,0 +1,16 @@
+body {
+ background-color: rgba(0, 0, 0, 0.795);
+}
+.nav-lang {
+ text-align: right;
+ margin-bottom: 1em;
+}
+.lang-item {
+ font-size: 1em;
+ margin-right: 1.25em;
+ text-decoration: none;
+}
+.li-mobile-menu {
+ text-decoration: none;
+ background-image: none;
+}
