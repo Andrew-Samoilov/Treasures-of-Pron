@@ -1,6 +1,6 @@
 function pron(inputX, inputY) {
   let diagN = inputY + (inputX - 1);
-  return (Math.pow(diagN,2) - (Math.pow(diagN,2) - diagN) / 2) - inputX + 1;
+  return String((Math.pow(diagN,2) - (Math.pow(diagN,2) - diagN) / 2) - inputX + 1);
 }
 
 console.log(`Вхідні: x 10, y 5`);
